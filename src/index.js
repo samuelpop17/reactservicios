@@ -7,11 +7,16 @@ import ServicioCustomers from './components/ServicioCustomers';
 import BuscadorCustomer from './components/BuscadorCustomer';
 import BuscarCoche from './components/BuscarCoche';
 import DepartamentosEmpleados from './components/DepartamentosEmpleados';
+import EmpleadosOficios from './components/EmpleadosOficios';
+import Departamentos from './components/MaetroDetalle/Departamentos';
+import TablaMultiplicar from './components/TablaMultiplicar';
+import Router from './components/Router';
+import MenuRutas from './components/MenuRutas';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <DepartamentosEmpleados></DepartamentosEmpleados>
-   
+<MenuRutas></MenuRutas>
+<Router/>
   </React.StrictMode>
 );
 
