@@ -12,10 +12,19 @@ import Departamentos from './components/MaetroDetalle/Departamentos';
 import TablaMultiplicar from './components/TablaMultiplicar';
 import Router from './components/Router';
 import MenuRutas from './components/MenuRutas';
+import MenuRutasCollaz from './components/RutasCollaz/MenuRutasCollaz';
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import $ from "jquery"
+import Popper from 'popper.js';
+import "bootstrap/dist/js/bootstrap.bundle"
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-<MenuRutas></MenuRutas>
+    
+
 <Router/>
   </React.StrictMode>
 );
